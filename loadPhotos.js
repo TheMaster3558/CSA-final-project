@@ -28,7 +28,7 @@ function addImages(list) {
     grid.classList.add("photo-grid")
 
     for (const i of list) {
-        fetch(`https://xkcd.com/${i}/info.0.json`)
+        fetch(`https://corsproxy.io/?https://xkcd.com/${i}/info.0.json`)
         .then(response => {
             if (!response.ok) {
                 console.log(response.status);
