@@ -25,6 +25,22 @@ body {
     transform: scale(1.1);
 }
 
+
+.overlay-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+}
+
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+
 .nav-header {
     position: fixed;
     top: 0;
